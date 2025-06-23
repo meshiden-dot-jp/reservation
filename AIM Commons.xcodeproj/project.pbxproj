@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEE752ED2DF8E7EB002852B3 /* Build configuration list for PBXProject "reservation" */;
+			buildConfigurationList = CEE752ED2DF8E7EB002852B3 /* Build configuration list for PBXProject "AIM Commons" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reservation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservation.app/$(BUNDLE_EXECUTAIM CommonsBLE_FOLDER_PAIM CommonsTH)/reservation";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reservation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservation.app/$(BUNDLE_EXECUTAIM CommonsBLE_FOLDER_PAIM CommonsTH)/reservation";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEE752ED2DF8E7EB002852B3 /* Build configuration list for PBXProject "reservation" */ = {
+		CEE752ED2DF8E7EB002852B3 /* Build configuration list for PBXProject "AIM Commons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEE753142DF8E7EF002852B3 /* Debug */,

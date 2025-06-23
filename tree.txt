@@ -1,0 +1,18 @@
+フォルダー パスの一覧:  ボリューム Local Disk
+ボリューム シリアル番号は B29D-6465 です
+C:\RESERVATION
+├─AIM Commons.xcodeproj
+│  ├─project.xcworkspace
+│  └─xcuserdata
+│      └─user.xcuserdatad
+│          └─xcschemes
+├─reservation
+│  ├─Assets.xcassets
+│  │  ├─AccentColor.colorset
+│  │  └─AppIcon.appiconset
+│  └─Preview Content
+│      └─Preview Assets.xcassets
+├─reservation.xcodeproj
+│  └─project.xcworkspace
+├─reservationTests
+└─reservationUITests

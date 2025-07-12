@@ -80,7 +80,7 @@ struct settings: View {
                         }
                         .buttonStyle(.plain)
                         .sheet(isPresented: $showTerms) {
-                            SafariView(url: URL(string: "https://example.com/terms")!)
+                            SafariView(url: URL(string: "https://meshiden.jp/disclaimer")!)
                         }
                         NavigationLink {
                             license()
@@ -101,7 +101,7 @@ struct settings: View {
                         }
                         .buttonStyle(.plain)
                         .sheet(isPresented: $showTerms) {
-                            SafariView(url: URL(string: "https://example.com/privacy")!)
+                            SafariView(url: URL(string: "https://meshiden.jp/privacy")!)
                         }
                         HStack{
                             Text("バージョン")

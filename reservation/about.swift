@@ -12,10 +12,7 @@ struct about: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
-                    Text("このアプリについて")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
+
                     Text("このアプリは、AIMプロジェクトの一環として開発された予約管理アプリです。学生や教職員がスムーズに施設や機材の予約を行えるように設計されています。")
                         .font(.body)
                     

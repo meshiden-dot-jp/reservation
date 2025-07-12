@@ -31,7 +31,7 @@ struct about: View {
                 }
                 .padding()
             }
-            .navigationTitle("このアプリについて")
+            .navigationTitle("このアプリについて").toolbarTitleDisplayMode(.inline)
         }
     }
 }

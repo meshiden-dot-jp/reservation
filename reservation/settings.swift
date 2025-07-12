@@ -10,6 +10,7 @@ import SwiftUI
 struct settings: View {
     @State var inputPhone = ""
     @State var inputGrade = ""
+    @State private var showTerms = false
     @FocusState private var isFocused: Bool
     var body: some View {
         NavigationStack{
@@ -65,20 +66,42 @@ struct settings: View {
                         } label: {
                             Text("このアプリについて")
                         }
-                        NavigationLink {
-                            terms()
+                        Button {
+                            showTerms = true
                         } label: {
-                            Text("利用規約")
+                            HStack {
+                                Text("利用規約")
+                                Spacer()
+                                Image(systemName: "chevron.forward")
+                                    .font(.system(size: 13, weight: .semibold))
+                                    .foregroundColor(Color(UIColor.tertiaryLabel))
+                            }
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                        .sheet(isPresented: $showTerms) {
+                            SafariView(url: URL(string: "https://example.com/terms")!)
                         }
                         NavigationLink {
                             license()
                         } label: {
                             Text("ライセンス")
                         }
-                        NavigationLink {
-                            privacy()
+                        Button {
+                            showTerms = true
                         } label: {
-                            Text("プライバシーポリシー")
+                            HStack {
+                                Text("プライバシーポリシー")
+                                Spacer()
+                                Image(systemName: "chevron.forward")
+                                    .font(.system(size: 13, weight: .semibold))
+                                    .foregroundColor(Color(UIColor.tertiaryLabel))
+                            }
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                        .sheet(isPresented: $showTerms) {
+                            SafariView(url: URL(string: "https://example.com/privacy")!)
                         }
                         HStack{
                             Text("バージョン")

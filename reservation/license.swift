@@ -12,9 +12,6 @@ struct license: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
-                    Text("ライセンス")
-                        .font(.title2)
-                        .fontWeight(.bold)
                     
                     Text("このアプリでは以下のオープンソースライブラリを使用しています。")
                     
@@ -38,7 +35,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
                 }
                 .padding()
             }
-            .navigationTitle("ライセンス")
+            .navigationTitle("ライセンス").toolbarTitleDisplayMode(.inline)
         }
     }
 }
